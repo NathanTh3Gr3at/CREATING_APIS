@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "NathanTh3Gr3at",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "mongodb": "^6.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }

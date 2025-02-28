@@ -1,0 +1,19 @@
+{
+  "name": "creating_apis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+   "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "NathanTh3Gr3at",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
